@@ -43,7 +43,7 @@ main {
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 p {
@@ -106,6 +106,22 @@ button:hover {
   background-color: #b04759;
   color: #8bacaa;
 }
+
+.tags {
+  display: flex;
+  align-content: space-around;
+  gap: 5%;
+  margin-left: 5%;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px darkslategrey;
+}
+
+div {
+  border-style: solid;
+  width: 15%;
+  border-radius: 10% / 50%;
+}
+
 footer {
   background-color: #e76161;
   margin-top: 20px;
