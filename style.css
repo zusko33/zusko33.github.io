@@ -43,7 +43,7 @@ main {
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 p {
@@ -109,16 +109,17 @@ button:hover {
 
 .tags {
   display: flex;
-  align-content: space-around;
+  flex-direction: row;
+  align-content: center;
   gap: 5%;
-  margin-left: 5%;
+  margin-top: 1%;
   color: whitesmoke;
   text-shadow: 2px 2px 5px darkslategrey;
 }
 
 div {
   border-style: solid;
-  width: 15%;
+  width: fit-content;
   border-radius: 10% / 50%;
 }
 
